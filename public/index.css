@@ -1,5 +1,55 @@
+body,html {
+    height: 100%;
+}
+
+/* must be relative for scrollspy to work */
 body {
-    background-image: url("https://images.unsplash.com/photo-1481386642130-4a31ef3bf00d?auto=format&fit=crop&w=1950&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+    position: relative;
+}
+
+.min-100 {
+    min-height: 100vh;
+}
+
+#sidemenu {
+    position: sticky;
+}
+
+.sps {
+  padding: 1em .5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.25s ease;
+  width: 100%;
+}
+
+.sps--abv {
+  background-color: transparent;
+  color: #000;
+}
+
+.sps--blw {
+  color: #fff;
 }
 
 
+.anchor{
+  display: block;
+  height: 70px;
+  margin-top: -70px;
+  visibility: hidden;
+}
+
+#content .nav-link {
+    color: #555;
+    transition: all 0.2 ease;
+}
+
+footer a {
+    color: #ccc;
+}
+footer a:hover,
+footer a:focus{
+    color: #eee;
+}
