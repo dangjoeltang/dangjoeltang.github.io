@@ -7,12 +7,34 @@ body {
     position: relative;
 }
 
+h1 {
+    /*color: #0099ff;*/
+    padding-bottom: 30px;
+}
+
 .min-100 {
     min-height: 100vh;
 }
 
+.date {
+    text-align: right;
+}
+
+.jumbotron {
+    /*background-image: url("wood.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #333333;
+    color: white;
+}
+
 #sidemenu {
     position: sticky;
+}
+
+#cheese {
+    border-radius: 50%;
+    width: 300px; 
 }
 
 .sps {
@@ -33,12 +55,19 @@ body {
   color: #fff;
 }
 
-
 .anchor{
   display: block;
   height: 70px;
   margin-top: -70px;
   visibility: hidden;
+}
+
+.section {
+    margin-bottom: 100px;
+}
+
+.subsection{
+    margin-bottom: 50px;
 }
 
 #content .nav-link {
