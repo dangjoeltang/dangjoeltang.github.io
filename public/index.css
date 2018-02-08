@@ -8,8 +8,31 @@ body {
 }
 
 h1 {
-    /*color: #0099ff;*/
-    padding-bottom: 30px;
+    color: #333333;
+    padding-bottom: 20px;
+    border-bottom: 10px;
+}
+
+a {
+    color: #333333;
+}
+
+a:hover {
+    color: #ff9900;
+}
+
+footer a {
+    color: #ccc;
+}
+footer a:hover,
+footer a:focus{
+    color: #eee;
+}
+
+span:after{
+    content:" "; 
+    display:inline-block; 
+    width:32px;
 }
 
 .min-100 {
@@ -26,19 +49,21 @@ h1 {
     background-size: cover;
     background-color: #333333;
     color: white;
+    border-radius: 0;
 }
 
-#sidemenu {
-    position: sticky;
+.nav {
+    border-right: 5px solid #ff9900;
+
 }
 
-#cheese {
-    border-radius: 50%;
-    width: 300px; 
+.nav-item {
+    text-transform: uppercase;
+    text-align: right;
 }
 
 .sps {
-  padding: 1em .5em;
+  padding: 50px .5em;
   position: fixed;
   top: 0;
   left: 0;
@@ -63,22 +88,22 @@ h1 {
 }
 
 .section {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .subsection{
     margin-bottom: 50px;
 }
 
-#content .nav-link {
-    color: #555;
-    transition: all 0.2 ease;
+#sidemenu {
+    position: sticky;
+    padding-right: 45px;
+    color: #fff;
 }
 
-footer a {
-    color: #ccc;
-}
-footer a:hover,
-footer a:focus{
-    color: #eee;
+#cheese {
+    border-radius: 50%;
+    width: 300px; 
+    border-color: white;
+    border-width: 5px;
 }
