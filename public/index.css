@@ -1,5 +1,6 @@
 body,html {
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* must be relative for scrollspy to work */
@@ -9,8 +10,13 @@ body {
 
 h1 {
 /*    color: #333333*/;
-    padding-bottom: 20px;
-    border-bottom: 10px;
+    padding-bottom: 10px;
+
+    /*border-bottom: 5px solid #ff9900;*/
+}
+
+h5 {
+    font-weight: bold;
 }
 
 a {
@@ -18,7 +24,7 @@ a {
 }
 
 a:hover {
-    color: #ff9900;
+    color: #339933;
 }
 
 footer a {
@@ -33,6 +39,22 @@ span:after{
     content:" "; 
     display:inline-block; 
     width:32px;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+table {
+
+}
+
+td {
+    width: 200px;
+}
+
+.fa-li {
+    color: #339933;
 }
 
 .min-100 {
@@ -60,6 +82,11 @@ span:after{
 .nav-item {
     text-transform: uppercase;
     text-align: right;
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    font-style: italic;
 }
 
 .sps {
@@ -93,6 +120,7 @@ span:after{
 
 .subsection{
     margin-bottom: 50px;
+    padding-left: 25px;
 }
 
 #sidemenu {
